@@ -12,7 +12,7 @@ Integrante 2: Tomas - [Legajo/Email]
 ---
 
 ## 🎯 Objetivos del Proyecto
-*   **Abstracción y Herencia:** Creamos una clase base `Vehiculo` (abstracta, como corresponde) de la cual nacen `Dron` y `Bicicleta`. Cada uno hereda la base pero define sus propias limitaciones físicas de peso y velocidad].
+*   **Abstracción y Herencia:** Creamos una clase base `Vehiculo` (abstracta, como corresponde) de la cual nacen `Moto` ,`Auto`, `Camioneta`. Cada uno hereda la base pero define sus propias limitaciones físicas de peso y velocidad].
 *   **Polimorfismo:** El `GestorLogistica` tiene una lista genérica de vehículos. Cuando recorre la lista para calcular los costos con `calcular_costo()`, no le importa qué bicho es en tiempo de ejecución; cada objeto responde a su manera.
 *   **Relación entre objetos:** Usamos agregación/composición en el `GestorLogistica` para administrar las colecciones de datos sin que las clases dependan rígidamente entre sí.
 ---
@@ -21,7 +21,7 @@ Integrante 2: Tomas - [Legajo/Email]
 El sistema modela el dominio del problema utilizando los pilares fundamentales de la programación orientada a objetos
 
 Abstracción y Encapsulamiento: La clase abstracta `Vehiculo` define el molde genérico del transporte, ocultando los detalles internos de su velocidad y lógica interna de carga.
-Herencia: Clases concretas como `Dron` y `Bicicleta` heredan la estructura base de `Vehiculo` para reutilizar atributos comunes.
+Herencia: Clases concretas como `Moto`, `Auto` y `Camioneta` heredan la estructura base de `Vehiculo` para reutilizar atributos comunes.
 Polimorfismo: El método `calcular_costo()` se redefine de manera particular en cada vehículo. El gestor procesa una lista heterogénea de transportes llamando al mismo método sin importar el tipo de objeto en tiempo de ejecución.
 Relaciones entre Objetos: Se implementa una relación de **Agregación/Composición** en la clase `GestorLogistica`, la cual administra colecciones independientes de vehículos y pedidos.
 
