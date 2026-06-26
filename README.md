@@ -7,8 +7,8 @@ Este proyecto es una aplicación de consola desarrollada en Python que simula la
 ---
 
 ## 👥 Integrantes
-Integrante 1: Valentin Prina Cerai - [Legajo/Email]
-Integrante 2: Thomas chichizola - [Legajo/Email]
+Integrante 1: Valentin Prina Cerai 
+Integrante 2: Thomas chichizola 
 ---
 
 ## 🎯 Objetivos del Proyecto
